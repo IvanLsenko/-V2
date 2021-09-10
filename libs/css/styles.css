@@ -38,16 +38,16 @@ div.cv_wrap header .profi_title {
   font-style: italic;
   font-size: 18px;
 }
-div.cv_wrap div.cv_contact {
+div.cv_wrap .contacts_section {
   margin-bottom: 40px;
 }
-div.cv_wrap div.cv_contact ul {
+div.cv_wrap .contacts_section ul {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
 }
-div.cv_wrap div.cv_contact ul li a {
+div.cv_wrap .contacts_section ul li a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -65,14 +65,14 @@ div.cv_wrap div.cv_contact ul li a {
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
-div.cv_wrap div.cv_contact ul li a:hover {
+div.cv_wrap .contacts_section ul li a:hover {
   background-color: #282828;
   color: #fff;
 }
-div.cv_wrap div.cv_contact ul li a i {
+div.cv_wrap .contacts_section ul li a i {
   margin-right: 10px;
 }
-div.cv_wrap div.cv_contact ul li:nth-of-type(2) a {
+div.cv_wrap .contacts_section ul li:nth-of-type(2) a {
   border-right: 1px solid #e1e1e1;
   border-left: 1px solid #e1e1e1;
 }
